@@ -8,8 +8,9 @@ cur.execute('''CREATE TABLE IF NOT EXISTS test(
 
 );''')
 
-cur.execute(f'''CREATE TABLE test2(
-    {list(mydict.keys())[0]} VARCHAR,
-    {list(mydict.keys())[1]} INT)''')
+cur.execute(f'''CREATE TABLE test3(
+    
+    )''')
 con.commit()
 con.close()
+
