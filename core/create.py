@@ -53,4 +53,6 @@ class Table:
 
 
 if __name__ == "__main__":
-    Table.create(Table("ashkan", ["name", "age"], ["string", "integer"]))
+    Table.create([Table("new1", ["name", "age"], ["string", "integer"]),
+                 Table("new2", ["name", "age"], ["string", "integer"]),
+                 Table("new3", ["name", "age"], ["string", "integer"])])

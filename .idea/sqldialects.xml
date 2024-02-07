@@ -2,5 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/core.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/core/create.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/core/delete.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/core/read.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/core/update.py" dialect="GenericSQL" />
   </component>
 </project>
